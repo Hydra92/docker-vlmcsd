@@ -1,0 +1,8 @@
+{
+  "name": "docker-vlmcsd",
+  "description": "A free and open-source youtube video proxy script[Written in PHP]",
+  "website": "https://github.com/doudoubinga/",
+  "repository": "https://github.com/doudoubinga/docker-vlmcsd",
+  "env":{
+  }
+}
