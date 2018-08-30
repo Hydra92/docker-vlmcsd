@@ -14,7 +14,6 @@ RUN apk update \
     && rm -rf /vlmgit  \
     && rm -rf /var/cache/apk/*
 
-EXPOSE 1688
 
 CMD ["/vlmcsd", "-D", "-d", "-t", "3", "-e", "-v"]
 
