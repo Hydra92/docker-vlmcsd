@@ -13,7 +13,8 @@ RUN apk update \
     && apk del build-base gcc abuild binutils cmake git \
     && rm -rf /vlmgit  \
     && rm -rf /var/cache/apk/*
-
+    
+EXPOSE 1688
 
 CMD ["/vlmcsd", "-D", "-d", "-t", "3", "-e", "-v"]
 
